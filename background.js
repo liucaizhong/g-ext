@@ -15,8 +15,8 @@ const setIconAndPopup = (enabled, tabId) => {
     })
 }
 
-chrome.runtime.onMessage.addListener((request, sender) => {
+chrome.runtime.onMessage.addListener((req, sender) => {
     // console.log('enabled', request.enabled)
     // console.log('sender', JSON.stringify(sender))
-    setIconAndPopup(request.enabled, sender.tab.id)
+    setIconAndPopup(req.enabled, sender.tab.id)
 })

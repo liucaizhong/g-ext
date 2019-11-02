@@ -1,0 +1,7 @@
+.float-button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: blue;
+    z-index: 999;
+}
