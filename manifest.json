@@ -28,5 +28,6 @@
             "128": "icons/128-disabled.png"
         },
         "default_popup": "popups/disabled.html"
-    }
+    },
+    "permissions": ["activeTab"]
 }
